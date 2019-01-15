@@ -1,0 +1,31 @@
+{
+  "name": "aws-botkit",
+  "version": "1.0.0",
+  "description": "Botkit running on AWS ECS Fargate",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmart2234/aws-botkit.git"
+  },
+  "keywords": [
+    "ecs",
+    "fargate",
+    "aws",
+    "botkit",
+    "slack"
+  ],
+  "author": "Kevin Martin <21.kmart@gmail.com> (https://github.com/kmart2234)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kmart2234/aws-botkit/issues"
+  },
+  "homepage": "https://github.com/kmart2234/aws-botkit#readme",
+  "dependencies": {
+    "@slack/client": "4.8.0",
+    "aws-sdk": "2.387.0",
+    "botkit": "0.7.0"
+  }
+}
