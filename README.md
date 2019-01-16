@@ -70,9 +70,9 @@ docker push aws_account_id.dkr.ecr.us-east-1.amazonaws.com/botkit:1.0.0
 
 *   Deploy our basic stack using a CloudFormation template
 
-    **Note:** You will need to replace `aws_account_id` below with your actual AWS Account ID
 ```
-aws cloudformation deploy --stack-name=chatops --template-file=aws/chatops-stack.yml --parameter-overrides ServiceName=botkit ImageTag=1.0.0 --capabilities=CAPABILITY_IAM
+aws cloudformation deploy --stack-name=chatops --template-file=aws/chatops-stack.yml --parameter-overrides 
+ServiceName=botkit ImageTag=1.0.0 --capabilities=CAPABILITY_IAM
 ```
 
 ## Testing Locally
