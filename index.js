@@ -18,8 +18,7 @@ const getSecrets            = require('./services/secrets');
         // Create the Botkit controller
         let controller = Botkit.slackbot({
             debug: false,
-            retry: 10,
-            studio_token: process.env.studio_token,
+            retry: 10
         });
 
 
