@@ -23,7 +23,7 @@ export AWS_DEFAULT_REGION=us-east-1
 export AWS_ACCOUNT_ID=$(aws sts get-caller-identity --output text --query 'Account')
 
 # Set your repo name / bot name
-export IMAGE_REPO_NAME=yourBotBameGoesHere
+export IMAGE_REPO_NAME=yourBotNameGoesHere
 
 # Set your tag for the repo (ie. 1.0.0)
 export IMAGE_TAG=yourTagGoesHere
